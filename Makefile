@@ -2,6 +2,8 @@ CC = gcc
 
 TARGET = qfetch
 
+SRCDIR = ./src
+
 CFLAGS = -lcurl -lcjson -o $(TARGET)
 
 PREFIX = /usr
@@ -9,7 +11,7 @@ PREFIX = /usr
 all: $(TARGET)
 
 install: 
-	$(CC) main.c $(CFLAGS)
+	$(CC) $(SRCDIR)/main.c $(CFLAGS)
 	install -m 755 $(TARGET) $(PREFIX)/bin
 
 uninstall: 
