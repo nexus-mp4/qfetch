@@ -18,7 +18,7 @@ git clone https://nexus-mp4/qfetch
 cd qfetch
 sudo make install
 ```
-### macOS
+#### macOS :
 ```
 git clone https://nexus-mp4/qfetch
 cd qfetch
