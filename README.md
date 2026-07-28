@@ -13,12 +13,18 @@ __Yes this is very crappy, I know. Everybody starts out *somewhere*.__
 
 ### installation:
 #### Linux :
-build from source:
 ```
 git clone https://nexus-mp4/qfetch
 cd qfetch
 sudo make install
 ```
+### macOS
+```
+git clone https://nexus-mp4/qfetch
+cd qfetch
+sudo make install_mac
+```
+
 ---
 
 https://github.com/user-attachments/assets/9a0169a9-eb16-47a2-907e-b78f1eaf494f
